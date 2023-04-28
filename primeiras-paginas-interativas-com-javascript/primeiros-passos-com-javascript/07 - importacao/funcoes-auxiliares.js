@@ -12,4 +12,11 @@ function print(texto) {
     console.log(texto);
 }
 
-module.exports = { gets, print };
+function tabuada(numero) {
+    console.log('Tabuada de ' + numero);
+    for (let i = 1; i <= 10; i++) {
+        console.log(`${i} * ${numero} = ` + (numero * 1));
+    }
+}
+
+module.exports = { gets, print, tabuada };
