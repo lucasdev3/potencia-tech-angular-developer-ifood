@@ -96,6 +96,7 @@
 .pokemon .name {
     color: #FFF;
     margin-bottom: .25rem;
+    text-transform: capitalize;
 }
 
 .pokemon .detail {
@@ -109,6 +110,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    text-transform: capitalize;
 }
 
 .pokemon .detail .types .type {
