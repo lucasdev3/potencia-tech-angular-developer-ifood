@@ -60,6 +60,8 @@ class Pessoa {
 const pessoa = new Pessoa('Lucas', 85, 1.87);
 const carro = new Carro('Camaro', 'Amarelo', 10);
 
+console.
+
 pessoa.descrever();
 
 console.log(`Gasto total: R$${carro.getGastoTotal(100, 5.89).toFixed(2)}`)  
